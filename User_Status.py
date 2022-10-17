@@ -1,5 +1,4 @@
 import streamlit as st
-import mysql.connector
 import pymysql
 import numpy as np
 import pandas as pd
@@ -7,7 +6,6 @@ import datetime
 from utils import get_data
 from millify import millify
 import plotly.express as px
-import plotly.figure_factory as ff
 
 colors = ["#00798c", "#d1495b", '#edae49', '#66a182', '#4a4a4a',
           '#1a508b', '#e3120b', '#c5a880', '#9F5F80', '#6F9EAF',

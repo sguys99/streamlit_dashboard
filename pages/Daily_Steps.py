@@ -1,12 +1,7 @@
-from typing import Union, Any
-
 import numpy as np
 import streamlit as st
-import mysql.connector
 import pymysql
 import pandas as pd
-from pandas import Series, DataFrame
-from pandas.core.generic import NDFrame
 
 from utils import get_data
 from millify import millify
